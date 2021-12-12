@@ -1,0 +1,30 @@
+*{
+	margin: 0;padding: 0;box-sizing: border-box;
+}
+h1{
+	font-family: Helvetica; font-size: 60px;
+	color: white;
+}
+section{
+	display: grid;
+	place-items:center;
+}
+
+/*  layer all the pages */
+
+article, section{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+  overflow: hidden;
+}
+/* some color */
+
+.one{background-color: #ffddd1;}
+.two{background-color: #f0c9d7;}
+.three{background-color: #d4c2e1;}
+.four{background-color: #bdd7ea;}
+.five{background-color: #c0f0f4;}
+
