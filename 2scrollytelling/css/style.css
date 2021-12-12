@@ -1,13 +1,78 @@
 *{
 	margin: 0;padding: 0;box-sizing: border-box;
 }
+
 h1{
-	font-family: Helvetica; font-size: 60px;
+	font-family: Helvetica, Arial, Helvetica, sans-serif; 
+	font-size: 60px;
+	color: white;
+	text-shadow: 1px 1px black;
+}
+
+h2, h3{
+	font-family: Helvetica, Arial, Helvetica, sans-serif; 
+	font-size: 22px;
+	color: rgb(10, 10, 10);
+}
+
+h4{
+	font-family: Helvetica, Arial, Helvetica, sans-serif;
+	font-size: 20px;
 	color: white;
 }
+
+h5{
+	font-family: Helvetica, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: black;
+}
+
+li{
+	font-family: Helvetica, Arial, Helvetica, sans-serif;
+	color:black;
+	margin: 20px 0;
+}
+
+table{
+	font-family: Helvetica, Arial, Helvetica, sans-serif;
+	color:black;
+	margin-left: 20vw;
+	margin-right: auto;
+}
+
+.whig>img{
+	height:100px;
+	width:auto;
+	margin-left: 0vw;
+}
+
+img{
+	height: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: auto;
+}
+
 section{
 	display: grid;
 	place-items:center;
+}
+
+.title{
+	margin: 40px;
+	margin-right: 40vw;
+}
+
+.intro, .whig, .outro, .fourth, .fifth{
+	margin-left: 15vw;
+	margin-right: 15vw;
+}
+
+.third{
+	margin-right: 60%;
+	margin-left: 5%;
+	padding-top: 50px;
 }
 
 /*  layer all the pages */
@@ -18,13 +83,19 @@ article, section{
 	left: 0;
 	width: 100%;
 	height: 100vh;
-  overflow: hidden;
+    overflow: hidden;
 }
+
+a:hover{
+	background-color: #92B6B1;
+}
+
 /* some color */
 
-.one{background-color: #ffddd1;}
-.two{background-color: #f0c9d7;}
-.three{background-color: #d4c2e1;}
-.four{background-color: #bdd7ea;}
-.five{background-color: #c0f0f4;}
-
+.one{background-color: #000000;  background-image: url("https://coanet.org/wp-content/uploads/2021/01/Untitled-design-31.png");}
+.two{background-color: #fff7d9;}
+.seven{background-color: #c6dac0;}
+.three{background-color: #b3d4d0;}
+.four{background-color: #ccdaee;}
+.five{background-color: #99aebe;}
+.six{background-color: #FFEAD0;}
